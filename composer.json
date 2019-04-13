@@ -2,21 +2,25 @@
     "name": "lolong/task",
     "description": "Tao ke hoach",
     "type": "library",
-    "require": {
+    "require":
+    {
         "kalnoy/nestedset": "^4.3"
     },
-    "autoload": {
-        "psr-4": {
+    "autoload":
+    {
+        "psr-4":
+        {
             "LoLong\\Task\\": "src/"
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "extra": {
-    "laravel": {
-        "providers": [
-            "LoLong\\Task\\TaskServiceProvider"
-        ]
+    "extra":
+    {
+        "laravel":
+        {
+            "providers": [
+                "LoLong\\Task\\TaskServiceProvider"
+            ]
+        }
     }
-},
 }
